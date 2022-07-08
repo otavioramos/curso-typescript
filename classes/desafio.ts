@@ -1,6 +1,8 @@
 // Exercício 1 - Classe
 class Moto {
-    constructor(public nome: string, public velocidade: number = 0) {}
+    public velocidade: number = 0
+
+    constructor(public nome: string) {}
  
     public buzinar(): void {
         console.log('Toooooooooot!')
@@ -11,7 +13,7 @@ class Moto {
     }
 }
  
-var moto = new Moto('Ducati')
+const moto = new Moto('Ducati')
 moto.buzinar()
 console.log(`Velocidade da moto: ${moto.velocidade}`)
 moto.acelerar(30)
@@ -47,7 +49,11 @@ class Estagiario {
     }
 
     set primeiroNome(nome: string) {
-        this._primeiroNome = nome
+        if (nome.length >= 3) {
+            this._primeiroNome = nome
+        } else {
+            this._primeiroNome = ''        
+        }
     }
 }
 
