@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/otavioramos/curso-typescript/issues"
   },
-  "homepage": "https://github.com/otavioramos/curso-typescript#readme"
+  "homepage": "https://github.com/otavioramos/curso-typescript#readme",
+  "dependencies": {
+    "systemjs": "^0.21.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.5"
+  }
 }
