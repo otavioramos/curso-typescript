@@ -152,8 +152,9 @@ filaPessoas.proximo();
 
 filaPessoas.imprimir();
 
+console.log(" =============  Desafio - Mapa ============= ");
 
-console.clear();
+
 // Desafio Mapa
 // Array de Objetos (Chave/Valor) -> itens
 // Métodos: obter(Chave), colocar({ C, V})
