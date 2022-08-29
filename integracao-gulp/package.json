@@ -7,7 +7,7 @@
     "build": "gulp"
   },
   "keywords": [],
-  "author": "",
+  "author": "Otavio Ramos",
   "type": "module",
   "license": "ISC",
   "devDependencies": {

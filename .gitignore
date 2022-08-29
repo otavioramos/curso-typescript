@@ -3,3 +3,4 @@ features/**/*.js
 **/node_modules/
 **/.DS_Store
 integracao-gulp/dist/**
+integracao-webpack/dist/**
